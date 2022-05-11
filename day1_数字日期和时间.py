@@ -58,3 +58,7 @@ a = timedelta(days=2, hours=6)
 b = timedelta(hours=4.5)
 c = a + b
 c.days
+
+from datetime import datetime
+a = datetime(2012, 9, 23)
+print(a + timedelta(days=10))
